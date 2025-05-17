@@ -1,9 +1,7 @@
 git clone https://github.com/твоё_имя/insta-clone.git
-cd insta-clone
-git add .
+cd insta-clone git add .
 git commit -m "Добавлен код Instagram-клона"
-git push
-# Instagram Clone
+git push # Instagram Clone
 
 Полноценный клон Instagram на React + Node.js + MongoDB.
 
@@ -35,21 +33,4 @@ git clone https://github.com/yourname/insta-clone
 cd insta-clone
 npm install
 npm run dev
----
-
-### **5. Добавляем логотип и скриншоты**
-
-- Папка `screenshots/` — помести туда `home.png`, `profile.png`, `login.png`
-- Файл `logo.png` — например, логотип Instagram с другим цветом или надписью `InstaClone`
-
-Добавь в `public/favicon.ico` логотип, иконку и в `manifest.json`.
-
----
-
-### **6. Итоговая структура проекта**
----
-
-Хочешь, я:
-
-
 
