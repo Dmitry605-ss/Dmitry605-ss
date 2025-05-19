@@ -430,4 +430,67 @@ export default function App() {
 
 ### 📊 GitHub Stats:
 
-![Dmitriy605-ss's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Dmitriy605-ss&show_icons=true&theme=dark)
+![Dmitriy605-ss's GitHub Stats](https://github-readme-stats.vercel.app/api?
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Профиль</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    #profile {
+      background: #fff;
+      padding: 20px 30px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      font-size: 20px;
+    }
+    .checkmark {
+      width: 20px;
+      height: 20px;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+
+<div id="profile">
+  <span id="username"></span>
+</div>
+
+<script>
+  // Фамилии с галочкой
+  const verifiedUsers = ["Лихачев", "Иванов", "Петров"];
+
+  // Эмуляция текущего пользователя
+  const currentUser = {
+    firstName: "Дмитрий",
+    lastName: "Лихачев" // ← Измени тут фамилию для теста
+  };
+
+  // Показ имени и галочки
+  function onLogin(user) {
+    const el = document.getElementById("username");
+    el.innerText = `${user.firstName} ${user.lastName}`;
+    if (verifiedUsers.includes(user.lastName)) {
+      const badge = document.createElement("img");
+      badge.src = "https://upload.wikimedia.org/wikipedia/commons/e/e4/Twitter_Verified_Badge.svg"; // публичная галочка
+      badge.className = "checkmark";
+      badge.alt = "Галочка";
+      el.appendChild(badge);
+    }
+  }
+
+  onLogin(currentUser);
+</script>
+
+</body>
+</html>username=Dmitriy605-ss&show_icons=true&theme=dark)
