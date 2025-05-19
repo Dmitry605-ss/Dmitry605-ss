@@ -400,3 +400,34 @@ export default function App() {
     </BrowserRouter>
   );
 }
+# Привет, я Дмитрий!
+
+### Разработчик | Фанат Open Source | Люблю писать чистый код
+
+- 🔭 Сейчас работаю над проектом **T-wire** — клон Telegram с полным функционалом.
+- 🌱 Изучаю: `Node.js`, `React Native`, `Flutter`.
+- 💬 Спрашивай меня о всём, что связано с **мобильной разработкой**, **frontend** и **backend**.
+- ⚡ Люблю создавать приложения с нуля — от идеи до APK.
+
+---
+
+### 📫 Как меня найти:
+- Telegram: [@dmitriy605](https://t.me/dmitriy605)
+- GitHub: [Dmitriy605-ss](https://github.com/Dmitriy605-ss)
+
+---
+
+### 🛠️ Технологии:
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/-React-20232A?logo=react)
+![Node.js](https://img.shields.io/badge/-Node.js-43853D?logo=node.js&logoColor=white)
+![SQLite](https://img.shields.io/badge/-SQLite-003B57?logo=sqlite)
+![Flutter](https://img.shields.io/badge/-Flutter-02569B?logo=flutter&logoColor=white)
+
+---
+
+### 📊 GitHub Stats:
+
+![Dmitriy605-ss's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Dmitriy605-ss&show_icons=true&theme=dark)
